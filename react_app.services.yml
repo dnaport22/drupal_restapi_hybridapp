@@ -1,0 +1,4 @@
+services:
+  react_app.controller:
+    class: 'Drupal\react_app\Controller\ReactController'
+    arguments: ['@user.auth']

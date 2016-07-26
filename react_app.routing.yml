@@ -1,0 +1,23 @@
+react_app.register:
+  path: '/react001'
+  defaults:
+    _controller: '\Drupal\react_app\Controller\ReactController::postValue'
+    _title: 'React Native Registration'
+  requirements:
+    _permission: 'access content'
+
+React_Login_Form:
+    path: '/react002'
+    defaults:
+        _form: '\Drupal\react_app\Forms\ReactForm'
+        _title: 'React Login Form'
+    requirements:
+        _permission: 'access content'
+        
+react_app.login:
+  path: '/react003'
+  defaults:
+    _controller: '\Drupal\react_app\Controller\ReactController::loginUser'
+    _title: 'React Native Login'
+  requirements:
+    _permission: 'access content'

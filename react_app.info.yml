@@ -1,0 +1,6 @@
+name: React-Native
+description: "Using React-Native app"
+type: module
+project: Forbes Middle East
+version: 1.0
+core: '8.x'
